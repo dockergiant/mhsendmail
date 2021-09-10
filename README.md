@@ -1,46 +1,10 @@
 mhsendmail
 ==========
 
-A sendmail replacement which forwards mail to an SMTP server.
 
-```bash
-> go get github.com/mailhog/mhsendmail
+![Docker Image Architures](https://img.shields.io/badge/architecture-arm64%20%7C%20amd64-success)
+![License](https://img.shields.io/github/license/drpayyne/mhsendmail)
 
-> mhsendmail test@mailhog.local <<EOF
-From: App <app@mailhog.local>
-To: Test <test@mailhog.local>
-Subject: Test message
+> This repository is forked from https://github.com/mailhog/mhsendmail for ARM64 and AMD64 builds. Please refer to the source repository for the original README.
 
-Some content!
-EOF
-```
-
-You can also set the from address (for SMTP `MAIL FROM`):
-
-```bash
-./mhsendmail --from="admin@mailhog.local" test@mailhog.local ...
-```
-
-Or pass in multiple recipients:
-
-```bash
-./mhsendmail --from="admin@mailhog.local" test@mailhog.local test2@mailhog.local ...
-```
-
-Or override the destination SMTP server:
-
-```bash
-./mhsendmail --smtp-addr="localhost:1026" test@mailhog.local ...
-```
-
-To use from php.ini
-
-```
-sendmail_path = /usr/local/bin/mhsendmail
-```
-
-### Licence
-
-Copyright ©‎ 2015 - 2016, Ian Kent (http://iankent.uk)
-
-Released under MIT license, see [LICENSE](LICENSE.md) for details.
+Please check releases for the builds.
