@@ -1,0 +1,11 @@
+# github.com/mailhog/mhsendmail v0.2.0
+## explicit
+github.com/mailhog/mhsendmail/cmd
+# github.com/mitchellh/gox v1.0.1
+## explicit
+# github.com/ogier/pflag v0.0.1
+## explicit
+github.com/ogier/pflag
+# github.com/spf13/pflag v1.0.5
+## explicit
+github.com/spf13/pflag
